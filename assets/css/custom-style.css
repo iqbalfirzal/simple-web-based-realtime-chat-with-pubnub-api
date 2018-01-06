@@ -1,0 +1,91 @@
+@font-face {
+	font-family: Badami;
+	src: url(../fonts/zeronero.ttf);
+}
+.font-badami {
+	font-family: Badami !important;
+}
+textarea {
+	vertical-align: top;
+	-webkit-transition: height 0.2s !important;
+	-moz-transition: height 0.2s !important;
+	-o-transition: height 0.2s !important;
+	transition: height 0.2s !important;
+}
+.floatalert {
+	position:fixed;
+	top:55px;
+	left:0px;
+	width:100%;
+	z-index:9999;
+}
+.floatalert .alert {
+	max-width:300px;
+	margin:auto;
+}
+@media (min-width:768px){
+	.text-logo {
+		font-size: 100px;
+	}
+}
+@media (max-width:767px){
+	.text-logo {
+		font-size: 50px;
+	}
+	.content-wrapper .container {
+		padding-right:0px;
+		padding-left:0px;
+	}
+	.fixed .content-wrapper {
+		padding-top:50px;
+	}
+}
+.bg-white {
+  color: #333;
+  background-color: #fff !important;
+}
+.badge-icon {
+	font-size:80px;
+	line-height:90%;
+}
+.border-top {
+	border-top:1px dotted #fff;
+}
+.border-bottom {
+	border-bottom:1px dotted #fff;
+}
+.border-top-dark {
+	border-top:1px solid #f4f4f4;
+}
+.border-bottom-dark {
+	border-bottom:1px solid #f4f4f4;
+}
+.border-right {
+	border-right:1px dotted #fff;
+}
+.border-left {
+	border-left:1px dotted #fff;
+}
+.border-right-dark {
+	border-right:1px dotted #333;
+}
+.border-left-dark {
+	border-left:1px dotted #333;
+}
+.mylist {
+	list-style-type: none;
+	padding-left:0px;
+}
+.widget-user-2 .widget-user-username {
+	overflow:hidden;
+	height:30px;
+	margin-top:0px;
+	font-size:20px;
+}
+.widget-user-2 .widget-user-username, .widget-user-2 .widget-user-desc {
+	margin-left:60px;
+	margin-bottom:0px;
+}
+.widget-user-2 .widget-user-image img {
+	width:50px;
+}
